@@ -72,3 +72,12 @@ print("O alvo 7.55.10.234 aparece: ", contar_na_lista("7.55.10.234", todos_alvos
 
 #####!!!!!!!!!!!!!! THE END !!!!!!!!!!!!!!#####
 print("\n tecnicasdeinvasao.com")
+
+###################################################################################################################
+## aula Função
+def add_https(dominio):
+ junta = 'https://' + dominio
+ return junta
+
+
+print(add_https("globo.com"))

@@ -38,12 +38,13 @@ print(int(n2) + n1)
 ## os = linux
 ## ativo = true
 
-alvo = { 'ip': '8.8.8.8', 'porta' :'80','os': 'linux','ativo': 'true',}
+alvo = {'ip': '8.8.8.8', 'porta':'80','os': 'linux','ativo': 'true',}
 # Com base na dict alvo (criada acima), imprima o valor da key
 # "ip".
 
 print(alvo["ip"])
 
+print("Existe o alvo 8.8.8.8?", verifica_na_lista("8.8.8.8", alvos))
 
 # Com base na dict alvo (criada acima), imprima o valor da key
 # "os".
